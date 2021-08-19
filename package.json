@@ -1,0 +1,33 @@
+{
+  "name": "enganatrouxas",
+  "version": "0.0.1",
+  "description": "Teste de CRUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"vai testar o que ô cabeça?\"",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MongoDB"
+  },
+  "keywords": [
+    "MongoDB",
+    "test",
+    "learning"
+  ],
+  "author": "Rotfuchs-von-Vulpes",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "envdot": "0.0.3",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "type": "module"
+}
